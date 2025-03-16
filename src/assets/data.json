@@ -1,3 +1,132 @@
 {
-  "fullName": "Yogesh Satale"
+  "fullName": "Yogesh Satale",
+  "totalExperience": "8+",
+  "aboutMe": "Innovative and results-driven web application developer with 8+ years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.",
+  "skills": {
+    "frontEnd": {
+      "title": "Frontend :",
+      "data": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Typescript",
+        "ReactJs",
+        "Angular",
+        "Ant Design"
+      ]
+    },
+    "backEnd": {
+      "title": "Backend :",
+      "data": ["NodeJs", "Express", "Hono", "PHP"]
+    },
+    "database": {
+      "title": "Database :",
+      "data": ["MongoDb", "MySql"]
+    },
+    "buildTools": {
+      "title": "Build Tools :",
+      "data": ["Bun", "Vite", "Webpack", "Parcel"]
+    },
+    "testing": {
+      "title": "Testing :",
+      "data": ["JEST", "Playwright", "React Testing Library"]
+    },
+    "developmentTools": {
+      "title": "Development Tools :",
+      "data": ["VSCode", "ChatGpt", "Copilot"]
+    },
+    "agileMethodologies": {
+      "title": "Agile Tools :",
+      "data": ["Jira", "Confluence", "Datadog", "Amplitude", "AWS"]
+    }
+  },
+  "contact": {
+    "email": "satale.yogesh88@gmail.com",
+    "mobile": "+918623836848",
+    "github": "https://github.com/Yogesh1807",
+    "linkedin": "https://www.linkedin.com/in/yogesh-satale-a0270523/"
+  },
+  "education": [
+    {
+      "year": "2013",
+      "degree": "Master of Science in E & Tc",
+      "institution": "Pune University Pune, Maharashtra"
+    },
+    {
+      "year": "2010",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "SRTMUN, Nanded, Maharashtra"
+    }
+  ],
+  "languageOptions": [
+    {
+      "value": "en",
+      "label": "English"
+    },
+    {
+      "value": "ma",
+      "label": "Marathi"
+    }
+  ],
+  "experience": [
+    {
+      "color": "blue",
+      "count": "2 year",
+      "designation": "Senior Software developer",
+      "company": "Syngenta",
+      "list": [
+        "- 04/2023 to Present",
+        "- Spearheaded the integration of CI/CD pipelines using Docker, accelerating deployment times.",
+        "- Mentored junior developers, conducting code reviews and knowledge-sharing sessions to maintain high development standards."
+      ]
+    },
+    {
+      "color": "green",
+      "count": "3 year 5 months",
+      "designation": "Frontend Developer",
+      "company": "Syngenta",
+      "list": [
+        "- 10/2019 to 03/2023",
+        "- Designed and developed a high-performance agriculture platform using Reacts and NodeJS, increasing user retention.",
+        "- Migrated legacy applications to microservices architecture, improving system scalability and reducing downtime"
+      ]
+    },
+    {
+      "color": "green",
+      "count": "1 year 2 months",
+      "designation": "Web Developer",
+      "company": " ITorix Pvt. Ltd.",
+      "list": [
+        "- 09/2018 to 10/2019",
+        "- Wrote server-side and client-side code for client projects using PHP, HTML, CSS and JavaScript, specifically with PHP framework.",
+        "- Collaborated with UI/UX teams to implement user-centered design principles, achieving an increase in user satisfaction.",
+        "- Integrated third-party APIs (e.g., Stripe, Google Maps) to expand application functionality and improve user engagement."
+      ]
+    },
+    {
+      "color": "green",
+      "count": " 1 year 11 months",
+      "designation": "Junior Web Developer",
+      "company": "Profecia Links Pvt. Ltd.",
+      "list": [
+        "- 11/2016 to 09/2018",
+        "- Converted mock-ups into functional web interfaces using HTML, JavaScript, and AJAX.",
+        "- Assisted in the development of content management systems (CMS) for small-to-medium businesses using PHP and MySQL.",
+        "- Implemented front-end features using jQuery and AJAX to improve interactivity and real-time functionality.",
+        "- Conducted debugging and troubleshooting, resolving issues to ensure seamless application performance."
+      ]
+    },
+    {
+      "color": "green",
+      "count": "6 months",
+      "designation": "Intern",
+      "company": "Semat Excellence",
+      "list": [
+        "- 06/2016 to 11/2016",
+        "- Developed components and connected applications with web services.",
+        "- Utilized WordPress and CodeIgniter to create user-friendly websites"
+      ]
+    }
+  ],
+  "version": "V17-03-2025"
 }

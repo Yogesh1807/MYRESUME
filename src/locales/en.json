@@ -1,0 +1,33 @@
+{
+  "greeting": "Hello, {{name}}",
+  "changeLanguage": "Switch to Chinese",
+  "button": {
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "Email": "Email",
+  "Phone": "Phone",
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email",
+    "messageRequired": "Message cannot be empty"
+  },
+  "About Me": "About Me",
+  "Innovative and results-driven web application developer with 8 years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.": "Innovative and results-driven web application developer with 8 years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.",
+  "Experience Timeline": "Experience Timeline",
+  "Senior Software developer": "Senior Software developer",
+  "Frontend Developer": "Frontend Developer",
+  "Web Developer": "Web Developer",
+  "Junior Web Developer": "Junior Web Developer",
+  "Intern": "Intern",
+  "Education": "Education",
+  "Skills": "Skills",
+  "Contact": "Contact",
+  "Last Updated": "Last Updated"
+}

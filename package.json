@@ -13,8 +13,10 @@
     "@fontsource/noto-sans": "^5.2.5",
     "antd": "^5.24.3",
     "framer-motion": "^12.4.10",
+    "i18next": "^24.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
