@@ -1,6 +1,7 @@
 import { ColorPicker, List, Select, Tooltip } from "antd";
 
 import { EmailIcon } from "../assets/svgicons";
+import { t } from "i18next";
 const { Option } = Select;
 
 const RightMenu = ({
@@ -13,7 +14,7 @@ const RightMenu = ({
   const data = [
     {
       key: "theme",
-      title: "Theme",
+      title: t("Theme"),
       icon: null,
       content: (props: any) => (
         <ColorPicker
@@ -25,7 +26,7 @@ const RightMenu = ({
     },
     {
       key: "language",
-      title: "Language",
+      title: t("Language"),
       icon: null,
       content: (props: any) => (
         <Select
@@ -46,7 +47,7 @@ const RightMenu = ({
     },
     {
       key: "mail",
-      title: "Contact",
+      title: t("contact.label"),
       icon: () => (
         <span onClick={() => setIsModalOpen(true)}>
           <EmailIcon className="customIcon" />

@@ -1,6 +1,7 @@
 import React from "react";
 import { Modal, Form, Input, Button, message } from "antd";
 import { useTranslation } from "react-i18next";
+import sendMail from "../service/email";
 
 interface ContactFormModalProps {
   isModalOpen: boolean;
@@ -15,11 +16,18 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
   const [form] = Form.useForm();
 
   // Handle form submission
-  const onFinish = (values: any) => {
+  const onFinish = async (values: any) => {
     console.log("Form Submitted:", values);
-    message.success(t("contact.submit") + " ✅");
-    setIsModalOpen(false); // Close modal
-    form.resetFields(); // Reset form fields
+    const res = await sendMail(values);
+    if (res.status !== 200 && !res.error) {
+      message.success(t("contact.submit") + " ✅");
+      setIsModalOpen(false); // Close modal
+      form.resetFields(); // Reset form fields
+    } else {
+      message.error(t("contact.error") + " ❌");
+      // setIsModalOpen(false); // Close modal
+      // form.resetFields(); // Reset form fields
+    }
   };
 
   return (

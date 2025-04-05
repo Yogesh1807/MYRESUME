@@ -7,7 +7,10 @@
   },
   "Email": "Email",
   "Phone": "Phone",
+  "Theme": "Theme",
+  "Language": "Language",
   "contact": {
+    "label": "Contact",
     "title": "Contact Us",
     "name": "Your Name",
     "email": "Your Email",

@@ -118,7 +118,7 @@ const PersonalWebsite = () => {
     <ConfigProvider
       theme={{
         token: {
-          fontFamily: "cursive",
+          fontFamily: "Noto Sans",
           // Seed Token
           colorPrimary: themeColor,
           borderRadius: 2,
@@ -144,7 +144,6 @@ const PersonalWebsite = () => {
       <LayoutStyle primarycolor={themeColor}>
         <Header className="logoHeader">
           <div style={{ visibility: "hidden" }}>hidden</div>
-          {/* <h1>{t("greeting", { name: data.fullName })}</h1> */}
           <div className="fullName">
             {t("greeting", { name: data.fullName })}
           </div>
@@ -229,7 +228,7 @@ const PersonalWebsite = () => {
                   style={{ marginTop: "20px", textAlign: "center" }}
                 >
                   <Button type="primary" onClick={handleDownloadResume}>
-                    {t("Get Resume")}
+                    {t("contact.submit")}
                   </Button>
                 </motion.div>
               </div>
