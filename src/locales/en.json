@@ -19,7 +19,9 @@
     "nameRequired": "Name is required",
     "emailRequired": "Email is required",
     "emailInvalid": "Invalid email",
-    "messageRequired": "Message cannot be empty"
+    "messageRequired": "Message cannot be empty",
+    "emailSuccessMessage": "Email sent successfully",
+    "emailErrorMessage": "Failed to send email"
   },
   "About Me": "About Me",
   "Innovative and results-driven web application developer with 8 years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.": "Innovative and results-driven web application developer with 8 years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.",

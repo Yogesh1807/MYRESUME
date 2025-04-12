@@ -37,6 +37,7 @@ const PersonalWebsite = () => {
   const [isShow, setIsShow] = useState(false);
   const [themeColor, setThemeColor] = useState("#00a8e6");
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [allTimelines, setAllTimelines] = useState([]);
 
   const toggleLanguage = (val: string) => {
@@ -298,6 +299,8 @@ const PersonalWebsite = () => {
           <ContactFormModal
             isModalOpen={isModalOpen}
             setIsModalOpen={setIsModalOpen}
+            setIsLoading={setIsLoading}
+            isLoading={isLoading}
           />
         </Content>
       </LayoutStyle>

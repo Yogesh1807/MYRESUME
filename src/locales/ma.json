@@ -19,7 +19,9 @@
     "nameRequired": "नाव आवश्यक आहे",
     "emailRequired": "ईमेल आवश्यक आहे",
     "emailInvalid": "चुकीचा ईमेल",
-    "messageRequired": "संदेश रिकामा असू शकत नाही"
+    "messageRequired": "संदेश रिकामा असू शकत नाही",
+    "emailSuccessMessage": "Email sent successfully",
+    "emailErrorMessage": "Failed to send email"
   },
   "About Me": "माझ्याबद्दल",
   "Innovative and results-driven web application developer with 8+ years of experience designing, developing, and maintaining dynamic, scalable, and user-centric web applications. Proficient in full-stack development, modern frameworks, and cloud technologies. Strong problem-solving skills and a proven track record of delivering high-quality solutions on time and within budget. Adept at collaborating with cross-functional teams to align technical solutions with business objectives.": "नाविन्यपूर्ण आणि परिणाम-चालित वेब अॅप्लिकेशन डेव्हलपर, गतिमान, स्केलेबल आणि वापरकर्ता-केंद्रित वेब अॅप्लिकेशन्स डिझाइन करणे, विकसित करणे आणि देखभाल करण्याचा ८ वर्षांचा अनुभव. पूर्ण-स्टॅक डेव्हलपमेंट, आधुनिक फ्रेमवर्क आणि क्लाउड तंत्रज्ञानात प्रवीण. मजबूत समस्या सोडवण्याचे कौशल्य आणि वेळेवर आणि बजेटमध्ये उच्च-गुणवत्तेचे उपाय वितरित करण्याचा सिद्ध ट्रॅक रेकॉर्ड. व्यावसायिक उद्दिष्टांशी तांत्रिक उपाय संरेखित करण्यासाठी क्रॉस-फंक्शनल टीम्ससह सहयोग करण्यात पारंगत.",
